@@ -1,0 +1,39 @@
+{
+  "name": "BusinessMate AI",
+  "short_name": "BusinessMate",
+  "description": "Smart business management - invoices, expenses, customers and more",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8fafc",
+  "theme_color": "#0d9488",
+  "scope": "/",
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "/?page=dashboard",
+      "description": "View your business overview"
+    },
+    {
+      "name": "New Invoice",
+      "url": "/?page=invoices",
+      "description": "Create a new invoice"
+    }
+  ]
+}
